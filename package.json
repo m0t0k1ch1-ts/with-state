@@ -6,7 +6,21 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "repository": "github:m0t0k1ch1-ts/with-state",
   "scripts": {
     "build": "tsup",
