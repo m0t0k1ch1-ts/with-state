@@ -7,7 +7,7 @@
     "dist"
   ],
   "main": "dist/index.js",
-  "repository": "github:m0t0k1ch1/with-state",
+  "repository": "github:m0t0k1ch1-ts/with-state",
   "scripts": {
     "build": "tsup",
     "commit": "cz",
