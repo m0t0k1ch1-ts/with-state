@@ -1,7 +1,7 @@
 export type MaybeInitialized<T> = Initialized<T> | Uninitialized;
 
 export type Initialized<T> = {
-  data: T;
+  readonly data: T;
   isInitialized: true;
 };
 
